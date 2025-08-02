@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Web Development Task</title>
+ <link rel="stylesheet" href="apex.css">
+</head>
+<body>
+  <header>
+    <h1>Task-2 Webpage</h1>
+    <p>Contact Form + Validation + Responsive Layout + Dynamic To-Do List</p>
+  </header>
+
+  <main>
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <h2>Contact Us</h2>
+      <input type="text" id="name" placeholder="Enter your name">
+      <input type="email" id="email" placeholder="Enter your email">
+      <textarea id="message" rows="4" placeholder="Enter your message"></textarea>
+      <button onclick="validateForm()">Submit</button>
+    </div>
+
+    <!-- Dynamic To-Do List -->
+    <div class="todo-list">
+      <h2>Dynamic To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Enter a new task">
+      <button onclick="addTask()">Add</button>
+      <ul id="taskList"></ul>
+    </div>
+  </main>
+<script src="tsak2.js"></script>
+</body>
+</html>
+
